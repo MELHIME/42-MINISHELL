@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   create_lst.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eel-ansa <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: mel-hime <mel-hime@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/21 21:59:18 by eel-ansa          #+#    #+#             */
-/*   Updated: 2024/08/21 21:59:20 by eel-ansa         ###   ########.fr       */
+/*   Updated: 2024/08/27 11:03:04 by mel-hime         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,3 +28,4 @@ void	create_lst(t_list **lst, t_lexer **head, t_env **env, char **envr)
 	fill_arr(lst, head, size);
 	fill_path(lst, env, envr);
 }
+

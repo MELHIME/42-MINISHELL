@@ -6,7 +6,7 @@
 /*   By: mel-hime <mel-hime@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/04 22:48:27 by eel-ansa          #+#    #+#             */
-/*   Updated: 2024/08/23 13:40:16 by mel-hime         ###   ########.fr       */
+/*   Updated: 2024/08/27 11:03:00 by mel-hime         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,7 @@ void	ft_bzero(char *str, int n)
 		i++;
 	}
 }
+
 
 char	**env_to_tab(t_env *env)
 {

@@ -6,7 +6,7 @@
 /*   By: mel-hime <mel-hime@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/22 22:07:57 by mel-hime          #+#    #+#             */
-/*   Updated: 2024/08/27 09:56:10 by mel-hime         ###   ########.fr       */
+/*   Updated: 2024/08/27 11:02:28 by mel-hime         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -104,3 +104,4 @@ int	lst_handle(t_list *lst, int *pid, int size, int *i)
 	}
 	return (0);
 }
+
