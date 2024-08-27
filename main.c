@@ -6,7 +6,7 @@
 /*   By: mel-hime <mel-hime@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/24 01:22:33 by eel-ansa          #+#    #+#             */
-/*   Updated: 2024/08/27 09:55:55 by mel-hime         ###   ########.fr       */
+/*   Updated: 2024/08/27 10:59:24 by mel-hime         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,3 +81,4 @@ int	main(int ac, char **av, char **envr)
 	start_readline(lexer, lst, env, envr);
 	return (g_status);
 }
+
